@@ -19,7 +19,7 @@ class LED1 {
 
         void loop()
         {
-            if (delayTimeLeft > 0) {
+            if (delayTimeLeft > BASE_DELAY) {
                 delayTimeLeft -= BASE_DELAY;
                 return;
             }
@@ -48,7 +48,7 @@ class LED2 {
 
         void loop()
         {
-            if (delayTimeLeft > 0) {
+            if (delayTimeLeft > BASE_DELAY) {
                 delayTimeLeft -= BASE_DELAY;
                 return;
             }
